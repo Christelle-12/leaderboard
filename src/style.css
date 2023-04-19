@@ -1,0 +1,63 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 65.1%;
+}
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: baseline;
+}
+.recent-score {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+}
+.title-recent{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+}
+.title-recent button{
+    width: 3.5rem;
+    height: fit-content;
+    align-self: center;
+    border-style: groove;
+}
+ul{
+    list-style: none;
+    border: 2px solid black;
+    padding: 0;
+}
+ul li:nth-child(even) {
+    background-color: lightgrey;
+}
+.add-score {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+}
+.add-score p {
+    font-weight: 700;
+    font-size: 20px;
+}
+.add-score form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.add-score form input{
+    border: 1px solid black;
+    width: 60%;
+}
+.add-score button{
+    width: fit-content;
+}
