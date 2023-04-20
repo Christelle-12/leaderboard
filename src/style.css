@@ -46,14 +46,12 @@ header {
   width: 4.5rem;
   height: 2rem;
   align-self: center;
-  border-radius: 5px;
 }
 
 .add-score button {
   width: 4.5rem;
   height: 2rem;
   align-self: center;
-  border-radius: 5px;
 }
 
 .title-recent button:hover {
@@ -63,7 +61,6 @@ header {
 ul {
   list-style: none;
   border: 2px solid black;
-  border-radius: 5px;
 }
 
 ul li {
@@ -73,13 +70,13 @@ ul li {
 ul li:nth-child(even) {
   background-color: lightgrey;
   height: 2.2rem;
-  border-radius: 1rem;
+  border-bottom: 1px solid #000;
 }
 
 ul li:nth-child(odd) {
   background-color: rgb(240, 238, 238);
   height: 2.2rem;
-  border-radius: 1rem;
+  border-bottom: 1px solid #000;
 }
 
 .add-score {
@@ -92,12 +89,10 @@ ul li:nth-child(odd) {
 
 #name-input {
   height: 2.2rem;
-  border-radius: 1rem;
 }
 
 #score-input {
   height: 2.2rem;
-  border-radius: 1rem;
 }
 
 .add-score p {
