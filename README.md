@@ -23,11 +23,12 @@
 ## HTML+CSS Setup
 
 **Leaderboard** is a web-based list that displays the rankings of individuals or groups based on specific criteria. The leaderboard pulls data from an API (Application Programming Interface) to dynamically update the list based on the latest information. This allows for real-time ranking updates. The rendered list refers to the visual presentation of the leaderboard on a website or application.
+## 🚀 Screenshot <a name="screenshot"></a>
+![image](https://user-images.githubusercontent.com/105784335/233350108-b72a4bc7-2974-48f6-89d5-7ede1951b768.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -48,7 +49,7 @@
 
 ## Key Features
 - **Render-scores**
--**API**
+- **API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,11 +72,12 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder: 
-``
+```sh
+
 cd my-dir
 git clone https://github.com/Christelle-12/leaderboard.git
 
-``
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,11 +129,11 @@ to run tests, run the following command
 
 
 ## Future Features
--[Make it more user friendly]
--[Add Css animations]
--[Dynamic features]
 -[Transitions using CSS]
-
+- [ ] **[Make it more user friendly]**
+- [ ] **[Add Css animations]**
+- [ ] **[Add Animations Features]**
+- [ ] **[Add Css transitions]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
