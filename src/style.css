@@ -1,13 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+
 .body {
-  display: flex;
-  flex-direction: column;
   text-align: left;
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  padding-top: 2rem;
 }
 
 header {
   display: flex;
   justify-content: center;
   width: 65.1%;
+  color: #fff;
 }
 
 .main-wrapper {
@@ -29,28 +38,61 @@ header {
   justify-content: space-between;
   font-size: 20px;
   font-weight: 700;
+  color: #fff;
+  padding: 1.3rem;
 }
 
 .title-recent button {
-  width: 3.5rem;
+  width: 4.5rem;
+  height: 2rem;
   align-self: center;
-  border-style: groove;
+}
+
+.add-score button {
+  width: 4.5rem;
+  height: 2rem;
+  align-self: center;
+}
+
+.title-recent button:hover {
+  background-color: greenyellow;
 }
 
 ul {
   list-style: none;
   border: 2px solid black;
-  padding: 0;
+}
+
+ul li {
+  padding: 5px;
 }
 
 ul li:nth-child(even) {
   background-color: lightgrey;
+  height: 2.2rem;
+  border-bottom: 1px solid #000;
+}
+
+ul li:nth-child(odd) {
+  background-color: rgb(240, 238, 238);
+  height: 2.2rem;
+  border-bottom: 1px solid #000;
 }
 
 .add-score {
   display: flex;
   flex-direction: column;
   padding-left: 4rem;
+  width: 30%;
+  color: #fff;
+}
+
+#name-input {
+  height: 2.2rem;
+}
+
+#score-input {
+  height: 2.2rem;
 }
 
 .add-score p {
@@ -69,6 +111,6 @@ ul li:nth-child(even) {
   width: 60%;
 }
 
-.add-score button {
-  width: fit-content;
+.add-score button:hover {
+  background-color: greenyellow;
 }
