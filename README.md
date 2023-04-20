@@ -24,7 +24,7 @@
 
 **Leaderboard** is a web-based list that displays the rankings of individuals or groups based on specific criteria. The leaderboard pulls data from an API (Application Programming Interface) to dynamically update the list based on the latest information. This allows for real-time ranking updates. The rendered list refers to the visual presentation of the leaderboard on a website or application.
 ## 🚀 Screenshot <a name="screenshot"></a>
-![image](https://user-images.githubusercontent.com/105784335/233350108-b72a4bc7-2974-48f6-89d5-7ede1951b768.png)
+![image](https://user-images.githubusercontent.com/105784335/233406404-a537faf6-231c-4817-949d-a51081196b2e.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
