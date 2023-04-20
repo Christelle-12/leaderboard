@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Leaderboard</title>
 </head>
 <body>
     <div class="body">
@@ -15,24 +15,16 @@
             <div class="recent-score">
                 <div class="title-recent">
                     <p>Recent scores</p>
-                    <button>refresh</button>
+                    <button class="btn refresh">Refresh</button>
                 </div>
-                <ul>
-                    <li>Name : 100</li>
-                    <li>Name : 20</li>
-                    <li>Name : 50</li>
-                    <li>Name : 78</li>
-                    <li>Name : 12.5</li>
-                    <li>Name : 70</li>
-                    <li>Name : 42</li>
-                </ul>
+                <ul class="item_container"></ul>
             </div>
             <div class="add-score">
                 <p>Add score</p>
-                <form action="">
-                    <input type="text" placeholder="Your name">
-                    <input type="text" placeholder="Your score">
-                    <button>submit</button>
+                <form action="" id="score-form">
+                    <input type="text" placeholder="Your name" id="name-input">
+                    <input type="number" placeholder="Your score" id="score-input">
+                    <button class="btn submit">Submit</button>
                 </form>
             </div>
         </main>

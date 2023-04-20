@@ -1,7 +1,7 @@
 # Leaderboard
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
+- [📖 Leaderboard-App](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -18,22 +18,25 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
-# 📖 Awesome books project <a name="about-project"></a>
+# 📖 Leaderboard-App <a name="Leaderboard"></a>
 
 ## HTML+CSS Setup
 
-**HTML+CSS Setup** is an open source project aimed at building a safer, secure, fast, efficient and more realiable website
+**Leaderboard** is a web-based list that displays the rankings of individuals or groups based on specific criteria. The leaderboard pulls data from an API (Application Programming Interface) to dynamically update the list based on the latest information. This allows for real-time ranking updates. The rendered list refers to the visual presentation of the leaderboard on a website or application.
+## 🚀 Screenshot <a name="screenshot"></a>
+![image](https://user-images.githubusercontent.com/105784335/233350108-b72a4bc7-2974-48f6-89d5-7ede1951b768.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
 <details>
   <summary>Client</summary>
   <ul>
     <li>HTML</li>
     <li>CSS</li>
     <li>JS</li>
+    <li>Leaderboard API</li>
+    <li>Webpack</li>
   </ul>
 </details>
 
@@ -42,12 +45,11 @@
 
 </details>
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Key Features
-- npm packages
-- html, css, and js renders the project
+- **Render-scores**
+- **API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,16 +71,22 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: 
+```sh
+
+cd my-dir
+git clone https://github.com/Christelle-12/leaderboard.git
+
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Install
 
-1. Clone the repo:
+1. Clone the repo:https://github.com/Christelle-12/leaderboard.git
  
 2. Install npm packages:
-  npm.install
+  npm install
 3. Install webpack:
   webpack.config.js
 
@@ -90,8 +98,8 @@ To run tests, run the following command:
 
 <ul>
 <li>run npm i</li>
-<li>run npm start</li>
-<li>npm run build </li>
+<li>run npm build</li>
+<li>npm run dev </li>
 </ul>
 
 ### Run Tests
@@ -113,6 +121,7 @@ to run tests, run the following command
 👤 Nirere Marie Christelle
 - GitHub: [@Christelle-12](https://github.com/Christelle-12)
 - Twitter: [@Chr1Nirere](https://twitter.com/Chr1Nirere)
+- LinkedIn :[LinkedIn](https://www.linkedin.com/in/nirere-marie-christelle-9b139823b/)
 
 
 
@@ -120,9 +129,11 @@ to run tests, run the following command
 
 
 ## Future Features
-
-- Make it a complete project
-- Make user friendly interface
+-[Transitions using CSS]
+- [ ] **[Make it more user friendly]**
+- [ ] **[Add Css animations]**
+- [ ] **[Add Animations Features]**
+- [ ] **[Add Css transitions]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +150,7 @@ Feel free to check the [issues page].
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project to give a positive feedback and comments that will go along way in making the project even better.
+If you like this project to give a positive feedback and comments that will go along way in making the project even better.your support matters
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,7 +158,7 @@ If you like this project to give a positive feedback and comments that will go a
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Microverse for this exercise.
+I would like to express my gratitude to Microverse for this project.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
