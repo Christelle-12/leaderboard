@@ -2,7 +2,7 @@ import './style.css';
 
 const BASE_URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
 
-async function createGame(name) {
+async function addGame(name) {
   const response = await fetch(`${BASE_URL}/games/`, {
     method: 'POST',
     headers: {
@@ -53,3 +53,29 @@ function resetInputs(nameInput, scoreInput) {
   nameInput.value = '';
   scoreInput.value = '';
 }
+
+const scoreForm = document.getElementById('score-form');
+const nameInput = document.getElementById('name-input');
+const scoreInput = document.getElementById('score-input');
+const scoresList = document.getElementById('scores-list');
+const refreshButton = document.getElementById('refresh-button');
+
+refreshButton.addEventListener('click', () => {
+  renderScores(gameId, scoresList);
+});
+
+scoreForm.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  const user = nameInput.value;
+  const score = scoreInput.value;
+  const response = await addScore(gameId, user, score);
+  if (response.result === 'Leaderboard score created correctly.') {
+    renderScores(gameId, scoresList);
+    resetInputs(nameInput, scoreInput);
+  }
+});
+
+const gameId = 'tBwGtBdpe0JlhKZ9f9uo';
+
+renderScores(gameId, scoresList);
+
